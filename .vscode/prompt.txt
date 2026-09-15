@@ -1,0 +1,257 @@
+Create a premium, modern, highly animated **3D Full Stack Developer Portfolio Website** for a developer named **Karan Singh**.
+
+### Design Style
+
+* Dark futuristic theme
+* Premium 3D glassmorphism UI
+* Black/deep charcoal background
+* Neon green highlights and glowing effects
+* Smooth 3D hover animations
+* Floating elements and animated background orbs
+* Subtle animated grid background
+* Modern typography
+* Clean, professional and minimal layout
+* Fully responsive for desktop, tablet and mobile
+* Fast and smooth animations
+* Make the website look like a high-end professional developer portfolio
+
+### Navbar
+
+Logo:
+**Karan.**
+
+Navigation:
+
+* Home
+* About
+* Skills
+* Projects
+* Contact
+
+Right side button:
+**Let's Talk ↗**
+
+### Hero Section
+
+Display:
+
+**HELLO, I'M**
+
+# Karan Singh.
+
+**Full Stack Developer**
+
+Description:
+
+"I build modern, responsive and interactive websites with clean code, creative UI and powerful animations."
+
+Buttons:
+
+* Explore My Work
+* Let's Connect
+
+Add social links:
+
+* GitHub
+* LinkedIn
+* Instagram
+
+On the right side create a large **3D floating code editor card** showing JavaScript/React code.
+
+Also add small floating 3D cards:
+
+* HTML
+* CSS
+* JS
+* React
+* Node.js
+
+### About Section
+
+Heading:
+
+**Behind The Code.**
+
+Introduce Karan Singh as a passionate Full Stack Developer.
+
+Add a premium 3D profile card containing:
+
+* Karan Singh
+* Full Stack Developer
+* CODE • CREATE • LEARN
+
+Add statistics:
+
+* 10+ Projects
+* 07 Technologies
+* ∞ Learning
+
+### Skills Section
+
+Create premium 3D animated skill cards.
+
+Skills:
+
+1. HTML
+
+   * Structure & Semantics
+
+2. CSS
+
+   * Design & Animation
+
+3. JavaScript
+
+   * Logic & Interaction
+
+4. React
+
+   * Frontend Development
+
+5. Node.js
+
+   * Backend Development
+
+6. Database
+
+   * Data Management
+
+7. GitHub
+
+   * Version Control
+
+Each card should have:
+
+* 3D icon
+* Skill name
+* Short description
+* Animated skill progress bar
+* Glow on hover
+* 3D tilt/transform effect
+
+### Services Section
+
+Create three premium cards:
+
+**01 — Web Development**
+Building responsive and modern websites.
+
+**02 — UI / UX Design**
+Creating beautiful interfaces with modern layouts and animations.
+
+**03 — Full Stack Development**
+Building complete applications using React, Node.js and Database.
+
+### Projects Section
+
+Create large 3D project cards.
+
+Projects:
+
+**01 — WILDORA**
+Cinematic nature website with premium animations.
+
+**02 — Flipkart Clone**
+Modern e-commerce interface.
+
+**03 — Instagram Clone**
+Social media interface.
+
+**04 — Full Stack Application**
+A complete application using:
+React + Node.js + Database.
+
+Each project card should have:
+
+* Large visual area
+* Project number
+* Year
+* Description
+* Technologies used
+* "View Project ↗" button
+* 3D hover animation
+
+### Full Stack Technology Section
+
+Add a dedicated section titled:
+
+**My Full Stack Journey**
+
+Show a visual 3D flow:
+
+**React**
+↓
+**Node.js + Express**
+↓
+**Database**
+
+Add small descriptions explaining:
+
+* React → Frontend
+* Node.js → Backend
+* Database → Data Storage
+
+### Contact Section
+
+Heading:
+
+**Let's Connect.**
+
+Text:
+
+"Have an idea, project or opportunity? Let's build something great."
+
+Create a modern glassmorphism contact form:
+
+* Name
+* Email
+* Message
+* Send Message →
+
+### Footer
+
+Logo:
+**Karan.**
+
+Text:
+**Built with HTML, CSS, JavaScript, React & Node.js.**
+
+Links:
+
+* Home
+* Projects
+* Contact
+
+### Animation Requirements
+
+Use lots of smooth but fast animations:
+
+* Floating 3D cards
+* Glowing background orbs
+* Animated grid
+* 3D card hover
+* Smooth button hover
+* Skill bar animations
+* Text reveal animations
+* Floating code editor
+* Soft neon glow
+* Scroll reveal effects
+* Subtle rotation and perspective effects
+
+Animations should feel **premium, smooth and professional**, not slow or excessive.
+
+### Technical Requirements
+
+Use:
+
+* HTML
+* CSS
+* JavaScript
+* React.js
+* Node.js
+* Express.js
+* Database
+
+Keep the code clean, organized and responsive.
+
+The final result should look like a **professional 2026 Full Stack Developer portfolio**, with a strong **3D futuristic UI**, premium animations and a clear developer identity for **Karan Singh**.
