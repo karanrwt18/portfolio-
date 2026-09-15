@@ -1629,4 +1629,44 @@ img {
 }
 
 
+@media (max-width: 480px) {
+
+    .scene {
+        width: 100%;
+        max-width: 100%;
+        padding: 30px 10px;
+        margin: 0 auto;
+        transform: none;
+    }
+
+    .code-card {
+        width: 100%;
+        max-width: 330px;
+        margin: 0 auto;
+
+        transform: none;
+
+        box-sizing: border-box;
+    }
+
+    .code-body {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+        font-size: 10px;
+        line-height: 1.5;
+        overflow: visible;
+    }
+
+    .code-header {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .floating-card {
+        display: none;
+    }
+}
+
+
 
