@@ -1481,3 +1481,123 @@ footer {
     width: 70%;
 }
 
+/* MOBILE SCREEN FIX */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 15px 20px;
+    }
+
+    .home {
+        grid-template-columns: 1fr;
+        padding: 80px 20px;
+    }
+
+    .scene {
+        transform: scale(.8);
+    }
+
+    .skill-box,
+    .service-box,
+    .project-box {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .home {
+        padding: 60px 15px;
+    }
+
+    .home h1 {
+        font-size: clamp(38px, 12vw, 52px);
+    }
+
+    .code-card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .floating-card {
+        transform: scale(.7);
+    }
+
+    .btn,
+    .btn-outline {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .skill-card,
+    .service,
+    .project {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* CARD SCREEN FIX */
+
+.scene {
+    width: 100%;
+    max-width: 600px;
+    min-width: 0;
+}
+
+.code-card {
+    width: min(500px, 90vw);
+    max-width: 100%;
+    margin: auto;
+}
+
+.floating-card {
+    max-width: 90vw;
+}
+
+@media (max-width: 768px) {
+    .scene {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .code-card {
+        width: 90%;
+        max-width: 380px;
+    }
+
+    .floating-card {
+        transform: scale(.65);
+    }
+}
+
+@media (max-width: 480px) {
+    .scene {
+        transform: scale(.9);
+        transform-origin: center;
+    }
+
+    .code-card {
+        width: 85%;
+        max-width: 330px;
+    }
+}
+
+
