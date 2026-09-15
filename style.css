@@ -1328,345 +1328,263 @@ footer {
 
 
 /* RESPONSIVE */
+/* RESPONSIVE */
 
 @media (max-width: 1050px) {
 
-    .home {
-        gap: 20px;
-    }
 
-    .scene {
-        transform: scale(.82);
-    }
-
-    .skill-box {
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    .project-box {
-        grid-template-columns: repeat(2,1fr);
-    }
+.home {
+    gap: 20px;
 }
 
+.scene {
+    transform: scale(.82);
+}
+
+.skill-box {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.project-box {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+}
+
+/* TABLET */
 
 @media (max-width: 750px) {
 
-    header {
-        padding: 0 5%;
-    }
 
-    nav {
-        display: none;
-    }
-
-    .home {
-        flex-direction: column;
-
-        text-align: center;
-
-        padding-top: 70px;
-    }
-
-    .description {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .home-buttons,
-    .socials {
-        justify-content: center;
-    }
-
-    .scene {
-        width: 520px;
-
-        transform: scale(.7);
-
-        margin-top: -50px;
-    }
-
-    .about-box {
-        flex-direction: column;
-
-        gap: 60px;
-    }
-
-    .about-text {
-        text-align: center;
-    }
-
-    .about-stats {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .service-box,
-    .project-box {
-        grid-template-columns: 1fr;
-    }
-
-    .contact-box {
-        flex-direction: column;
-
-        gap: 50px;
-    }
-
-    form {
-        width: 100%;
-    }
+header {
+    padding: 0 5%;
 }
 
-
-@media (max-width: 500px) {
-
-    .nav-btn {
-        display: none;
-    }
-
-    .home h1 {
-        font-size: 58px;
-
-        letter-spacing: -4px;
-    }
-
-    .home h2 {
-        font-size: 22px;
-    }
-
-    .home-buttons {
-        flex-direction: column;
-    }
-
-    .scene {
-        transform: scale(.55);
-
-        margin-left: -60px;
-
-        height: 360px;
-    }
-
-    .profile-card {
-        width: 280px;
-    }
-
-    .skill-box {
-        grid-template-columns: 1fr;
-    }
-
-    .cta h2 {
-        font-size: 52px;
-    }
-
-    footer {
-        flex-direction: column;
-
-        gap: 18px;
-
-        text-align: center;
-    }
+nav {
+    display: none;
 }
 
-
-/* NEW SKILLS */
-
-.skill-bar span.react {
-    width: 80%;
+.home {
+    flex-direction: column;
+    text-align: center;
+    padding: 70px 5% 40px;
 }
 
-.skill-bar span.node {
-    width: 75%;
+.description {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.skill-bar span.database {
-    width: 70%;
+.home-buttons,
+.socials {
+    justify-content: center;
 }
 
-/* MOBILE SCREEN FIX */
-
-* {
-    box-sizing: border-box;
-}
-
-html,
-body {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-@media (max-width: 768px) {
-
-    header {
-        padding: 15px 20px;
-    }
-
-    .home {
-        grid-template-columns: 1fr;
-        padding: 80px 20px;
-    }
-
-    .scene {
-        transform: scale(.8);
-    }
-
-    .skill-box,
-    .service-box,
-    .project-box {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 480px) {
-
-    .home {
-        padding: 60px 15px;
-    }
-
-    .home h1 {
-        font-size: clamp(38px, 12vw, 52px);
-    }
-
-    .code-card {
-        width: 100%;
-        max-width: 350px;
-    }
-
-    .floating-card {
-        transform: scale(.7);
-    }
-
-    .btn,
-    .btn-outline {
-        width: 100%;
-        max-width: 300px;
-    }
-
-    .skill-card,
-    .service,
-    .project {
-        width: 100%;
-        max-width: 100%;
-    }
-}
-
-/* CARD SCREEN FIX */
-
+/* 3D CARD */
 .scene {
     width: 100%;
-    max-width: 600px;
-    min-width: 0;
+    max-width: 520px;
+    height: 470px;
+    margin: 20px auto 0;
+
+    /* animation remains */
+    animation: sceneFloat 5s ease-in-out infinite;
+
+    transform: scale(.85);
+    transform-origin: center;
 }
 
 .code-card {
-    width: min(500px, 90vw);
-    max-width: 100%;
-    margin: auto;
+    width: 440px;
+    max-width: calc(100vw - 40px);
+
+    left: 50%;
+    top: 50px;
+
+    margin: 0;
+
+    transform:
+        translateX(-50%)
+        rotateY(-12deg)
+        rotateX(6deg)
+        rotateZ(1deg);
+}
+
+.code-body {
+    padding: 25px;
+    font-size: 12px;
 }
 
 .floating-card {
-    max-width: 90vw;
+    transform: scale(.8);
 }
 
-@media (max-width: 768px) {
-    .scene {
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .code-card {
-        width: 90%;
-        max-width: 380px;
-    }
-
-    .floating-card {
-        transform: scale(.65);
-    }
+.about-box {
+    flex-direction: column;
+    gap: 60px;
 }
 
-@media (max-width: 480px) {
-    .scene {
-        transform: scale(.9);
-        transform-origin: center;
-    }
-
-    .code-card {
-        width: 85%;
-        max-width: 330px;
-    }
+.about-text {
+    text-align: center;
 }
 
+.about-stats {
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.service-box,
+.project-box {
+    grid-template-columns: 1fr;
+}
 
-/* ===== CODE CARD MOBILE FIX ===== */
- 
-@media (max-width: 480px) {
+.contact-box {
+    flex-direction: column;
+    gap: 50px;
+}
 
-    .code-card {
-        width: 94%;
-        max-width: 340px;
-        height: auto;
-        margin: 0 auto;
-        transform: rotateY(-5deg) rotateX(3deg);
-    }
-
-    .code-body {
-        padding: 16px;
-        font-size: 10px;
-        line-height: 1.5;
-        overflow: visible;
-        height: auto;
-    }
-
-    .code-body p {
-        white-space: nowrap;
-    }
+form {
+    width: 100%;
+}
 
 }
 
+/* MOBILE */
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
-    .scene {
-        width: 100%;
-        max-width: 100%;
-        padding: 30px 10px;
-        margin: 0 auto;
-        transform: none;
-    }
 
-    .code-card {
-        width: 100%;
-        max-width: 330px;
-        margin: 0 auto;
+.nav-btn {
+    display: none;
+}
 
-        transform: none;
+.home {
+    padding: 60px 15px 20px;
+}
 
-        box-sizing: border-box;
-    }
+.home h1 {
+    font-size: 58px;
+    letter-spacing: -4px;
+}
 
-    .code-body {
-        width: 100%;
-        box-sizing: border-box;
-        padding: 15px;
-        font-size: 10px;
-        line-height: 1.5;
-        overflow: visible;
-    }
+.home h2 {
+    font-size: 22px;
+}
 
-    .code-header {
-        width: 100%;
-        box-sizing: border-box;
-    }
+.home-buttons {
+    flex-direction: column;
+    align-items: center;
+}
 
-    .floating-card {
-        display: none;
-    }
+.btn,
+.btn-outline {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* MOBILE 3D CARD */
+
+.scene {
+    width: 100%;
+    max-width: 100%;
+    height: 390px;
+
+    margin: 10px auto 0;
+
+    animation: sceneFloat 5s ease-in-out infinite;
+
+    transform: scale(.72);
+    transform-origin: center;
+}
+
+.code-card {
+    width: 330px;
+    max-width: calc(100vw - 30px);
+
+    left: 50%;
+    top: 35px;
+
+    transform:
+        translateX(-50%)
+        rotateY(-8deg)
+        rotateX(4deg)
+        rotateZ(1deg);
+}
+
+.code-body {
+    padding: 18px 14px;
+    font-size: 10px;
+    line-height: 1.7;
+
+    overflow: hidden;
+}
+
+.code-body p {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+/* FLOATING CARDS */
+
+.floating-card {
+    transform: scale(.65);
+}
+
+.card-one {
+    right: -10px;
+}
+
+.card-two {
+    left: -10px;
+}
+
+.card-three {
+    right: 10px;
+}
+
+.profile-card {
+    width: 280px;
+}
+
+.skill-box {
+    grid-template-columns: 1fr;
+}
+
+.cta h2 {
+    font-size: 52px;
+}
+
+footer {
+    flex-direction: column;
+    gap: 18px;
+    text-align: center;
 }
 
 
+}
 
+/* VERY SMALL PHONE */
+
+@media (max-width: 380px) {
+
+.home h1 {
+    font-size: 48px;
+}
+
+.scene {
+    transform: scale(.65);
+    height: 360px;
+}
+
+.code-card {
+    max-width: calc(100vw - 20px);
+}
+
+.floating-card {
+    display: none;
+}
+
+
+}
