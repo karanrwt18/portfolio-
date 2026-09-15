@@ -1601,3 +1601,40 @@ img {
 }
 
 
+
+/* ===== CODE CARD MOBILE FIX ===== */
+
+@media (max-width: 480px) {
+
+    .scene {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        transform: none;
+    }
+
+    .code-card {
+        width: 90%;
+        max-width: 320px;
+        margin: 0 auto;
+        transform: rotateY(-8deg) rotateX(4deg);
+    }
+
+    .code-body {
+        padding: 18px;
+        font-size: 11px;
+        overflow: hidden;
+    }
+
+    .code-header {
+        padding: 12px 15px;
+    }
+
+    .floating-card {
+        font-size: 10px;
+        transform: scale(.65);
+    }
+
+}
+
